@@ -44,7 +44,7 @@
  - 使用`--hard`参数表示本地库回退到上一版本，缓存区、工作区同样。
    使用`--soft`参数表示只有本地库回退，缓存区、工作区不变
    使用`--mixed`参数表示回退本地库和缓存区，工作区不变。这也是默认模式。
- - windows下使用这个命令 ```git reset --hard "HEAD^" ```
+    - windows下使用这个命令 ```git reset --hard "HEAD^" ```
     *  `git reset -- HEAD filename`
    用本地库覆盖缓存区（即未使用commit时使用），注意和上面的区别。
 *  `git checkout -- filename `
