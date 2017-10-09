@@ -84,7 +84,7 @@
 `origin`可以自己起名，这个是默认名
 `fengjiexyb`：github用户名
 `learngit`：项目名（repository）
-`git pull origin master` 从网络库下载资源，并快速合并。```master```是本地分支名
+* `git pull origin master` 从网络库下载资源，并快速合并。```master```是本地分支名
 * `git fetch origin master`
 从网络库下载资源，但不会合并。```master```是本地分支名
 * `git push [-u] origin master` 上传资源到网络库，并快速合并（只有第一次需要使用-u）。```master```是本地分支名
