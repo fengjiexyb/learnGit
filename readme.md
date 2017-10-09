@@ -80,7 +80,8 @@
 `git clone -b [new_branch_name]  xxx.git`
 * `git remote add origin git@github.com:fengjiexyb/learngit.git`
 这个命令实际是将本地库和`learngit`库相连（也可以用rm删除链接）。
-** 注意：** 一定要写左斜杠
+
+**注意：** 一定要写左斜杠
 `origin`可以自己起名，这个是默认名
 `fengjiexyb`：github用户名
 `learngit`：项目名（repository）
